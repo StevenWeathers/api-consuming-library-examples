@@ -1,0 +1,26 @@
+{
+  "name": "skynet-product",
+  "version": "1.0.0",
+  "description": "skynet-product",
+  "main": "product.js",
+  "scripts": {
+    "setup": "npm install",
+    "test": "lab",
+    "coverage": "npm test && open coverage.html"
+  },
+  "dependencies": {
+    "skynet-core": "node-core",
+    "joi": "7.0.0",
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "code": "4.0.0",
+    "lab": "11.1.0",
+    "nock": "2.18.2",
+    "sinon": "1.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

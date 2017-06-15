@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+*.iml
+.idea
+coverage.html
+clover.xml
+junit.xml
+npm-debug.log
+*.log

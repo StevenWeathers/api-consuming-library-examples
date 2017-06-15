@@ -1,0 +1,27 @@
+{
+  "name": "skynet-core",
+  "version": "1.0.0",
+  "description": "Contains the core functionality for consuming services.",
+  "main": "skynet",
+  "scripts": {
+    "setup": "npm install",
+    "test": "lab",
+    "coverage": "npm test && open coverage.html"
+  },
+  "dependencies": {
+    "http-proxy-agent": "1.0.0",
+    "https-proxy-agent": "1.0.0",
+    "lodash": "3.10.1",
+    "wreck": "7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Steven Weathers <steven@weathers.me>",
+  "devDependencies": {
+    "code": "4.0.0",
+    "lab": "11.1.0",
+    "nock": "2.18.2"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+.idea
+test.js
+coverage.html
+clover.xml
+junit.xml
+mocha.json
